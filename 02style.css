@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  #filters {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  #filters input, #filters select, #filters button {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  #map {
+    height: 90vh;
+    width: 100%;
+  }
+  

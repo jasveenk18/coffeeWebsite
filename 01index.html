@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delhi Coffee Shops</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+  <h1>Delhi Coffee Shops</h1>
+
+  <!-- Filters Section -->
+  <div id="filters">
+    <input type="text" id="searchName" placeholder="Search by name">
+    <input type="text" id="searchLocation" placeholder="Search by location">
+    <input type="text" id="searchPincode" placeholder="Search by pincode">
+    <select id="searchRating">
+      <option value="">Select Rating</option>
+      <option value="4.5">4.5+</option>
+      <option value="4.0">4.0+</option>
+      <option value="3.5">3.5+</option>
+    </select>
+    <select id="searchPrice">
+      <option value="">Select Price</option>
+      <option value="₹">₹</option>
+      <option value="₹₹">₹₹</option>
+      <option value="₹₹₹">₹₹₹</option>
+    </select>
+    <button onclick="applyFilters()">Apply Filters</button>
+  </div>
+
+  <!-- Map Section -->
+  <div id="map"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
